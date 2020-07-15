@@ -1,0 +1,11 @@
+<div class="container">
+    <div>
+        <ul>
+            <li *ngFor="let dish of dishes">
+                <img src="{{dish.image}}" alt="{{dish.name}}">
+                <span>{{dish.name}}</span>
+                <span>{{dish.description}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

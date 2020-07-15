@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+.toolbar{padding: 15px 0;background: #e9ae32;position: sticky;top: 0;}
+ul,li{padding: 0;margin: 0;}
+ul li{list-style-type: none;color: inherit;}
+a{color: inherit;}
